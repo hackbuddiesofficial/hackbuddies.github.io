@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Hacker Buddies</title>
+  <title>Hack Buddies</title>
   <style>
     body {
       font-family: Arial, sans-serif;
@@ -12,45 +12,70 @@
       margin: 0;
       padding: 0;
     }
+
     header {
       background-color: #1a1a1a;
       padding: 20px;
       text-align: center;
     }
+
     header h1 {
       margin: 0;
       color: #00ffcc;
     }
+
     nav {
-      background-color: #262626;
-      padding: 10px;
+      background-color: #1a1a1a;
+      padding: 15px 0;
       text-align: center;
+      border-bottom: 1px solid #333;
     }
+
     nav a {
       color: #00ffcc;
-      margin: 0 10px;
+      margin: 0 15px;
       text-decoration: none;
+      font-weight: bold;
+      padding: 8px 12px;
+      border-radius: 5px;
+      transition: background-color 0.3s, color 0.3s;
     }
+
     nav a:hover {
-      text-decoration: underline;
+      background-color: #00ffcc;
+      color: #0d0d0d;
     }
+
     main {
-      padding: 20px;
+      padding: 30px 20px 80px; /* extra bottom padding to avoid footer overlap */
+      max-width: 800px;
+      margin: auto;
     }
+
+    main h2, main h3 {
+      color: #00ffcc;
+    }
+
+    ul {
+      list-style-type: square;
+      padding-left: 20px;
+    }
+
     footer {
       background-color: #1a1a1a;
       text-align: center;
-      padding: 10px;
+      padding: 12px;
       position: fixed;
       bottom: 0;
       width: 100%;
       font-size: 14px;
+      border-top: 1px solid #333;
     }
   </style>
 </head>
 <body>
   <header>
-    <h1>Welcome to Hacker Buddies</h1>
+    <h1>Welcome to Hack Buddies</h1>
   </header>
 
   <nav>
@@ -69,7 +94,7 @@
   <main>
     <h2>Learn Ethical Hacking With Us</h2>
     <p>
-      Hacker Buddies is a helpful website for those who want to learn ethical hacking or improve their knowledge.
+      Hack Buddies is a helpful website for those who want to learn ethical hacking or improve their knowledge.
       Whether you're a beginner or someone with experience, you'll find tools, tutorials, and a friendly community here.
     </p>
 
@@ -87,7 +112,7 @@
   </main>
 
   <footer>
-    &copy; 2025 Hacker Buddies | Built by learners, for learners.
+    &copy; 2025 Hack Buddies | Built by learners, for learners.
   </footer>
 </body>
 </html>
